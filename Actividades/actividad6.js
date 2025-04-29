@@ -12,7 +12,8 @@ console.log("Los productos con precio mayor a 100 son: ", prodmayora100)
 const arraynuevo = productos.map(producto => `${producto.nombre}: ${producto.precio}`);
 console.log("Nuevo Array es:", arraynuevo);
 
-const preciototal = productos.reduce()
+const preciototal = productos.reduce((total, producto) => total + producto.precio, 0);
+console.log("El precio total de todos los productos es:", preciototal)
 
 const prodbaratos = productos
   .filter(producto => producto.precio < 100)
