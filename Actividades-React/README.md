@@ -32,3 +32,28 @@ Esta aplicación web muestra una lista de productos obtenidos desde una API de d
 2. Instala las dependencias
 3. Inicia la aplicación 
 4. Abre en tu navegador http://localhost:5173
+
+
+## 🔍 ¿Cómo funciona la aplicación?
+
+La app consume productos de la API pública [DummyJSON](https://dummyjson.com/products).
+
+- Puedes buscar productos por nombre y la lista se actualiza al instante.
+- Las estadísticas se calculan dinámicamente con los productos que coinciden en la búsqueda.
+- Los productos se presentan visualmente en tarjetas con toda la información relevante.
+- El diseño es responsivo y cuenta con animaciones sutiles para una mejor experiencia.
+
+---
+
+## 🧩Estructura de componentes
+
+- `ProductList`: Componente encargado de mostrar la lista de productos en tarjetas.
+- `StatsPanel`: Componente que muestra todas las estadísticas calculadas según los productos visibles.
+
+---
+
+## 👩‍💻 Autor
+
+Noelia Soto
+
+
